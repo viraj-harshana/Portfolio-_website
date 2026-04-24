@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Viraj Harshana — Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<!-- ================================
+     NAVBAR
+================================ -->
+<nav>
+  <div class="logo">VH.</div>
+  <ul class="nav-links">
+    <li><a href="#home" class="active">Home</a></li>
+    <li><a href="#blog">Blog Page</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <div class="nav-date" id="navDate"></div>
+</nav>
+
+<!-- ================================
+     HOME / HERO SECTION
+================================ -->
+<section id="home">
+  <div class="hero-inner">
+
+    <!-- LEFT SIDE -->
+    <div class="hero-left">
+      <p class="hero-greeting">Hello, It's Me</p>
+      <h1 class="hero-name">I'm <span>Viraj Harshana</span></h1>
+      <p class="hero-role">I'm a <span class="typed-word" id="typed"></span></p>
+      <p class="hero-desc">
+        An undergraduate from UOM passionate about building things for the web.
+        Driven by creativity, clean code, and meaningful digital experiences.
+      </p>
+      <div class="hero-actions">
+        <a href="#about" class="btn-primary">About Me ↓</a>
+      </div>
+      <div class="social-row">
+        <a href="#" class="social-icon" title="Facebook">f</a>
+        <a href="#" class="social-icon" title="Instagram">𝕀</a>
+        <a href="#" class="social-icon" title="GitHub">⌥</a>
+        <a href="#" class="social-icon" title="LinkedIn">in</a>
+      </div>
+    </div>
+
+    <!-- RIGHT SIDE — Avatar with YOUR PHOTO -->
+  <div class="hero-right">
+  <div class="avatar-wrap">
+    <div class="avatar-ring2"></div>
+    <div class="avatar-ring"></div>
+    <div class="avatar-bg"></div>
+
+    <!-- Your profile image -->
+    <div class="avatar-photo">
+      <img src="photo.jpg" alt="Your Name" />
+    </div>
+
+    <!-- Floating tags -->
+    <div class="floating-tag tag-1">🎓 UOM Undergrad</div>
+    <div class="floating-tag tag-2">💻 Web Dev</div>
+  </div>
+</div>
+</section>
+
+<!-- ================================
+     ABOUT SECTION
+================================ -->
+<section id="about">
+  <div class="section-inner">
+    <div class="about-grid">
+
+      <!-- LEFT — Text & Stats -->
+      <div>
+        <span class="section-label">Who I Am</span>
+        <h2 class="section-title">About <span>Me</span></h2>
+        <p class="section-sub">
+          I'm Viraj Harshana, an undergraduate student at the University of Moratuwa.
+          I love turning ideas into real web experiences.
+        </p>
+        <p class="about-para">
+          My journey started with curiosity about how websites work, and it grew into
+          a passion for frontend development, UI/UX design, and building things that matter.
+          When I'm not coding, I'm sketching out new ideas or exploring the latest in tech.
+        </p>
+
+        <!-- Skill Tags -->
+        <div class="skills-list">
+          <span class="skill-tag">HTML & CSS</span>
+          <span class="skill-tag">JavaScript</span>
+          <span class="skill-tag">React</span>
+          <span class="skill-tag">UI Design</span>
+          <span class="skill-tag">Node.js</span>
+          <span class="skill-tag">Git</span>
+          <span class="skill-tag">Figma</span>
+        </div>
+
+        <!-- Stats Grid -->
+        <div class="about-stats">
+          <div class="stat-card">
+            <div class="stat-num">1+</div>
+            <div class="stat-label">Years Coding</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-num">3+</div>
+            <div class="stat-label">Projects Done</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-num">UOM</div>
+            <div class="stat-label">University</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-num">🔥</div>
+            <div class="stat-label">Always Learning</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- RIGHT — Skill Bars Card -->
+      <div class="about-visual">
+        <div class="about-card about-card-main">
+          <p class="about-card-title">My Toolkit</p>
+          <p class="about-card-desc">
+            I work across the full frontend stack — designing in Figma,
+            building with React, and styling with precision.
+          </p>
+          <div class="skill-bars">
+            <div class="bar-item">
+              <div class="bar-top">
+                <span>HTML / CSS</span>
+                <span class="bar-pct orange">90%</span>
+              </div>
+              <div class="bar-track">
+                <div class="bar-fill" style="width:90%; background:var(--accent)"></div>
+              </div>
+            </div>
+            <div class="bar-item">
+              <div class="bar-top">
+                <span>JavaScript</span>
+                <span class="bar-pct teal">75%</span>
+              </div>
+              <div class="bar-track">
+                <div class="bar-fill" style="width:75%; background:var(--teal)"></div>
+              </div>
+            </div>
+            <div class="bar-item">
+              <div class="bar-top">
+                <span>React</span>
+                <span class="bar-pct yellow">65%</span>
+              </div>
+              <div class="bar-track">
+                <div class="bar-fill" style="width:65%; background:var(--accent2)"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="about-card-tag">✨ Open to Opportunities</div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ================================
+     BLOG SECTION
+================================ -->
+<section id="blog">
+  <div class="section-inner">
+    <span class="section-label">My Blog</span>
+    <h2 class="section-title">Latest <span>Posts</span></h2>
+    <p class="section-sub">
+      Thoughts on web development, design, and student life in tech.
+    </p>
+
+    <div class="blog-grid">
+
+      <!-- Blog Card 1 -->
+      <a href="https://medium.com/@ashithdiyunusinghe/what-is-css-and-how-it-makes-websites-beautiful-a5e4e38b8e69" class="blog-card" target="parent">
+        <div class="blog-thumb blog-thumb-1">🌐</div>
+        <div class="blog-body">
+          <div class="blog-tag">Web Dev</div>
+          <div class="blog-title">What is CSS and How It Makes Websites Beautiful</div>
+          <div class="blog-excerpt">
+            What is CSS and How It Makes Websites Beautiful
+          </div>
+          <div class="blog-meta">📅 March 2026 · 4 min read</div>
+        </div>
+      </a>
+
+      <!-- Blog Card 2 -->
+      <a href="#" class="blog-card">
+        <div class="blog-thumb blog-thumb-2">⚡</div>
+        <div class="blog-body">
+          <div class="blog-tag">JavaScript</div>
+          <div class="blog-title">5 JS Tricks I Wish I Knew Earlier</div>
+          <div class="blog-excerpt">
+            Small but powerful JavaScript patterns that changed how I write code every day.
+          </div>
+          <div class="blog-meta">📅 February 2026 · 5 min read</div>
+        </div>
+      </a>
+
+      <!-- Blog Card 3 -->
+      <a href="#" class="blog-card">
+        <div class="blog-thumb blog-thumb-3">🎓</div>
+        <div class="blog-body">
+          <div class="blog-tag">Student Life</div>
+          <div class="blog-title">Balancing Studies and Side Projects at UOM</div>
+          <div class="blog-excerpt">
+            Tips and lessons from juggling university coursework with personal coding projects.
+          </div>
+          <div class="blog-meta">📅 January 2026 · 3 min read</div>
+        </div>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+<!-- ================================
+     CONTACT SECTION
+================================ -->
+<section id="contact">
+  <div class="section-inner">
+    <span class="section-label">Get In Touch</span>
+    <h2 class="section-title">Contact <span>Me</span></h2>
+
+    <div class="contact-grid">
+
+      <!-- LEFT — Info -->
+      <div>
+        <p class="section-sub">
+          Whether you have a project idea, want to collaborate,
+          or just want to say hi — my inbox is always open!
+        </p>
+        <div class="contact-info-items">
+          <div class="contact-info-item">
+            <div class="contact-icon">📧</div>
+            <div>
+              <div class="contact-info-label">Email</div>
+              <div class="contact-info-val">viraj@example.com</div>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <div class="contact-icon">📍</div>
+            <div>
+              <div class="contact-info-label">Location</div>
+              <div class="contact-info-val">Colombo, Sri Lanka</div>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <div class="contact-icon">🎓</div>
+            <div>
+              <div class="contact-info-label">University</div>
+              <div class="contact-info-val">University of Moratuwa</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- RIGHT — Contact Form -->
+      <form class="contact-form" id="contactForm">
+        <div class="form-row">
+          <div class="form-group">
+            <label>First Name</label>
+            <input type="text" placeholder="Your name" />
+          </div>
+          <div class="form-group">
+            <label>Last Name</label>
+            <input type="text" placeholder="Last name" />
+          </div>
+        </div>
+        <div class="form-group">
+          <label>Email</label>
+          <input type="email" placeholder="you@example.com" />
+        </div>
+        <div class="form-group">
+          <label>Message</label>
+          <textarea placeholder="What's on your mind?"></textarea>
+        </div>
+        <button type="submit" class="btn-primary" id="submitBtn">
+          Send Message ✉️
+        </button>
+      </form>
+
+    </div>
+  </div>
+</section>
+
+<!-- ================================
+     FOOTER
+================================ -->
+<footer>
+  <p>Designed & built with ❤️ by <span>Viraj Harshana</span> · UOM · 2026</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
